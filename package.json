@@ -1,0 +1,24 @@
+{
+  "name": "shop-server",
+  "version": "1.0.0",
+  "description": "Online grocery shop",
+  "main": "app.js",
+  "scripts": {
+    "start": "DB_CONNECTION=mongodb+srv://user:2rFGmwBWrxFAXK82@personal-cluster.buikk.mongodb.net/project4 node app.js"
+  },
+  "author": "Ivan Savin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-jwt": "^6.0.0",
+    "mongoose": "^5.10.14",
+    "pdfkit": "^0.11.0",
+    "validator": "^13.5.1"
+  }
+}
